@@ -10,6 +10,8 @@ https://github.com/jstout211/vim_cmds
 
 ## Docker / Podman
 https://github.com/jstout211/podman_commands
+Docker w/ github actions:
+https://linuxhit.com/how-to-create-docker-images-with-github-actions/
 
 ## Datalad
 https://github.com/jstout211/datalad_examples

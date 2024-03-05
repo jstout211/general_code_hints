@@ -9,8 +9,8 @@ Printout all outputs (-s is important)
 https://github.com/jstout211/vim_cmds
 
 ## Docker / Podman
-https://github.com/jstout211/podman_commands
-Docker w/ github actions:
+https://github.com/jstout211/podman_commands  <br>
+Docker w/ github actions: <br>
 https://linuxhit.com/how-to-create-docker-images-with-github-actions/
 
 ## Datalad

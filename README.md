@@ -16,4 +16,5 @@ https://linuxhit.com/how-to-create-docker-images-with-github-actions/
 ## Datalad
 https://github.com/jstout211/datalad_examples
 
-## 
+## Used for nested looping and getting the x,y index in a matrix
+np.unravel_index(tile_idxs, [row_num, col_num])

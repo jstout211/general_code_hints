@@ -20,4 +20,8 @@ https://github.com/jstout211/datalad_examples
 np.unravel_index(tile_idxs, [row_num, col_num])
 
 ## Checking connectivity issues to a computer
+ping IPADDRESS --- if this works and the below says filtered, then there is a network block
 sudo nmap -p 22 -Pn --traceroute IPADDRESS
+
+also nslookup is helpful to return the ip address of a named computer
+On the local computer --- sudo ufw status -- this may show any local firewall filtering that is occuring

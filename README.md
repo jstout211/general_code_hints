@@ -18,3 +18,6 @@ https://github.com/jstout211/datalad_examples
 
 ## Used for nested looping and getting the x,y index in a matrix
 np.unravel_index(tile_idxs, [row_num, col_num])
+
+## Checking connectivity issues to a computer
+sudo nmap -p 22 -Pn --traceroute IPADDRESS

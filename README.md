@@ -44,8 +44,9 @@ cd /opt/MegaRAID/perccli/
 sudo ./perccli64 show
 ```
 
-Additional info on Seagate drives in Dell server: https://toughtechsite.wordpress.com/2017/12/03/the-case-of-non-certified-physical-drives-causing-warnings-in-dell-openmanage-omsa/
-PWDIS  fix: https://forums.servethehome.com/index.php?threads/powering-sas-drives.42019/
+Additional info on Seagate drives in Dell server: https://toughtechsite.wordpress.com/2017/12/03/the-case-of-non-certified-physical-drives-causing-warnings-in-dell-openmanage-omsa/ <br>
+PWDIS  fix: https://forums.servethehome.com/index.php?threads/powering-sas-drives.42019/ <br>
+https://www.mcmaster.com/products/polyimide-tape/masking-tape-for-electronics-8/?s=polyimide-tape <br>
 
 
 

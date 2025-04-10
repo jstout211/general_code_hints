@@ -20,12 +20,12 @@ https://github.com/jstout211/datalad_examples
 np.unravel_index(tile_idxs, [row_num, col_num])
 
 ## Checking connectivity issues to a computer
+```
 ping IPADDRESS --- if this works and the below says filtered, then there is a network block
 sudo nmap -p 22 -Pn --traceroute IPADDRESS
-
-also nslookup is helpful to return the ip address of a named computer
-On the local computer --- sudo ufw status -- this may show any local firewall filtering that is occuring
-
+```
+also nslookup is helpful to return the ip address of a named computer <br>
+On the local computer --- sudo ufw status -- this may show any local firewall filtering that is occuring <br>
 ## RAID Config Help
 ```
 sudo smartcl -a /dev/sd#
@@ -46,7 +46,7 @@ sudo ./perccli64 show
 
 Additional info on Seagate drives in Dell server: https://toughtechsite.wordpress.com/2017/12/03/the-case-of-non-certified-physical-drives-causing-warnings-in-dell-openmanage-omsa/ <br>
 PWDIS  fix: https://forums.servethehome.com/index.php?threads/powering-sas-drives.42019/ <br>
-https://www.mcmaster.com/products/polyimide-tape/masking-tape-for-electronics-8/?s=polyimide-tape <br>
+Kapton Insulating Tape: https://www.mcmaster.com/products/polyimide-tape/masking-tape-for-electronics-8/?s=polyimide-tape <br>
 
 
 

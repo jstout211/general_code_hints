@@ -32,6 +32,32 @@ sudo smartcl -a /dev/sd#
 openSeaChest_*      #This is the seagate utility that can be installed through apt
 ```
 
+### Sphinx setup (still learning this)
+`pip install sphinx`
+```
+mkdir docs
+cd docs
+sphinx-quickstart
+```
+
+Add the following to the conf.py file :
+```
+import os, sys
+sys.path.insert(0, os.path.abspath('..'))
+
+extensions = ["sphinx.ext.todo", "sphinx.ext.viewcode", "sphinx.ext.autodoc"]  #Napoleon extension for google/numpy style?
+```
+
+Run 
+```
+cd ..
+sphinx-apidoc -o docs .
+``` 
+
+
+
+
+
 ### Old Server
 ```
   cd /opt/MegaRAID/storcli

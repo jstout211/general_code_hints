@@ -26,11 +26,6 @@ sudo nmap -p 22 -Pn --traceroute IPADDRESS
 ```
 also nslookup is helpful to return the ip address of a named computer <br>
 On the local computer --- sudo ufw status -- this may show any local firewall filtering that is occuring <br>
-## RAID Config Help
-```
-sudo smartcl -a /dev/sd#
-openSeaChest_*      #This is the seagate utility that can be installed through apt
-```
 
 ### Sphinx setup (still learning this)
 `pip install sphinx`
@@ -54,10 +49,11 @@ cd ..
 sphinx-apidoc -o docs .
 ``` 
 
-
-
-
-
+## RAID Config Help
+```
+sudo smartcl -a /dev/sd#
+openSeaChest_*      #This is the seagate utility that can be installed through apt
+```
 ### Old Server
 ```
   cd /opt/MegaRAID/storcli

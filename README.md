@@ -29,6 +29,7 @@ On the local computer --- sudo ufw status -- this may show any local firewall fi
 
 ### Sphinx setup (still learning this)
 `pip install sphinx`
+`https://pypi.org/project/sphinxcontrib-napoleon/`
 ```
 mkdir docs
 cd docs

@@ -28,8 +28,8 @@ also nslookup is helpful to return the ip address of a named computer <br>
 On the local computer --- sudo ufw status -- this may show any local firewall filtering that is occuring <br>
 
 ### Sphinx setup (still learning this)
-`pip install sphinx`
-`https://pypi.org/project/sphinxcontrib-napoleon/`
+`pip install sphinx` <br>
+`pip install sphinxcontrib-napoleon` <br>
 ```
 mkdir docs
 cd docs
@@ -41,13 +41,14 @@ Add the following to the conf.py file :
 import os, sys
 sys.path.insert(0, os.path.abspath('..'))
 
-extensions = ["sphinx.ext.todo", "sphinx.ext.viewcode", "sphinx.ext.autodoc"]  #Napoleon extension for google/numpy style?
+extensions = ["sphinx.ext.todo", "sphinx.ext.viewcode", "sphinx.ext.autodoc", "sphinx.ext.napoleon"]  
 ```
 
 Run 
 ```
 cd ..
 sphinx-apidoc -o docs .
+sphinx-build -b html ./ ./html
 ``` 
 
 ## RAID Config Help

@@ -8,6 +8,9 @@ Printout all outputs (-s is important)
 ## Vim Stuff
 https://github.com/jstout211/vim_cmds
 
+## TMUX hints:
+https://gist.github.com/michaellihs/b6d46fa460fa5e429ea7ee5ff8794b96
+
 ## Docker / Podman
 https://github.com/jstout211/podman_commands  <br>
 Docker w/ github actions: <br>

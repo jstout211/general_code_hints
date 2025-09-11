@@ -22,6 +22,12 @@ https://github.com/jstout211/datalad_examples
 ## Used for nested looping and getting the x,y index in a matrix
 np.unravel_index(tile_idxs, [row_num, col_num])
 
+## find all files and replace a specific word (deprecated function) with an alternative.  Use git clean / checkout / restore to fix if erroneous changes happen
+```
+find /MYGITPROJECT/ -type f | xargs sed -i 's/word1/word2/g'
+```
+
+
 ## Checking connectivity issues to a computer
 ```
 ping IPADDRESS --- if this works and the below says filtered, then there is a network block

@@ -36,8 +36,15 @@ sudo nmap -p 22 -Pn --traceroute IPADDRESS
 also nslookup is helpful to return the ip address of a named computer <br>
 On the local computer --- sudo ufw status -- this may show any local firewall filtering that is occuring <br>
 
-## Twine upload to pypi
-To fix the following issue with setuputils uploade, download twine to 6.0.1 (from 6.1.0): https://stackoverflow.com/questions/79408101/what-is-the-correct-way-of-specifying-the-license-in-pyproject-toml-file-for-a-n
+## Upload to pypi
+Register at pypi and testpypi <br>
+Get a token and add to ~/.pypirc <br>
+
+`python3 -m build` -> Generates the ./dist folder with wheel and tar.gz files 
+Test Repo <br>
+`twine upload --repository testpypi dist/* --verbose`
+
+
 
 
 ### Sphinx setup (still learning this)

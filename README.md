@@ -76,6 +76,8 @@ sphinx-build -b html ./ ./html
 sudo smartcl -a /dev/sd#
 openSeaChest_*      #This is the seagate utility that can be installed through apt
 ```
+Setup: https://github.com/nih-megcore/tako_config
+
 ### Old Server
 ```
   cd /opt/MegaRAID/storcli

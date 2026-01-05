@@ -45,7 +45,9 @@ Test Repo <br>
 `twine upload --repository testpypi dist/* --verbose`
 
 
-
+## Pyqt designer
+`qt5-tools designer` -->> save .ui file, then convert to python <br>
+`pyuic5 -x [FILENAME].ui -o [FILENAME].py` <br>
 
 ### Sphinx setup (still learning this)
 `pip install sphinx` <br>

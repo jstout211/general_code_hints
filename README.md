@@ -96,6 +96,9 @@ Additional info on Seagate drives in Dell server: https://toughtechsite.wordpres
 PWDIS  fix: https://forums.servethehome.com/index.php?threads/powering-sas-drives.42019/ <br>
 Kapton Insulating Tape: https://www.mcmaster.com/products/polyimide-tape/masking-tape-for-electronics-8/?s=polyimide-tape <br>
 
+### Head position changes CTF software
+calcHeadPos - need to use current verion of CTF software.  Remove hz.ds, moveDs hz2.ds hz.ds, then calcHeadPos
+
 
 
 

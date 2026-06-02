@@ -11,6 +11,17 @@ https://github.com/jstout211/vim_cmds
 ## TMUX hints:
 https://gist.github.com/michaellihs/b6d46fa460fa5e429ea7ee5ff8794b96
 
+## Hugging Face:
+```
+conda create -n huggingFace -c conda-forge huggingface_hub
+conda activate huggingFace
+```
+```
+# Find my tokens in the standard spot
+hf auth login   #<< enter token
+hf upload --type model --commit-message 'Convert to keras V3 model' HF_REPO_LOC  LOCAL_FOLDER
+```
+
 ## Docker / Podman
 https://github.com/jstout211/podman_commands  <br>
 Docker w/ github actions: <br>

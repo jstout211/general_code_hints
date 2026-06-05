@@ -113,6 +113,13 @@ Kapton Insulating Tape: https://www.mcmaster.com/products/polyimide-tape/masking
 calcHeadPos -hzDs ()  DATASET rpfile (same as .acq)
 
 
+### Install pytorch so it can be seen on my system:
+After install of CUDA <br>
+My current nvidia-smi <br>
+NVIDIA-SMI 595.71.05              Driver Version: 595.71.05      CUDA Version: 13.2
+`pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128`
+
+
 
 
 
